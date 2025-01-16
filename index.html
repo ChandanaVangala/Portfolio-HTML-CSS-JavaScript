@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+ 
+    
+</head>
+<body >
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" style="background-color: rgb(103, 176, 179); border-radius: 10px;">
+    <h2>About Me</h2>
+    <p><i><b>Hello! I'm VANGALA CHANDANA, a tech enthusiat, currently pursuing IV BTech in Sree Vidyanikethan Engineering College, Tirupati in Computer Science and Design branch.</b></i></p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" style="background-color: rgb(78, 193, 197); border-radius: 10px;">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>Java</div>
+      <div>C</div>
+      <div>Python</div>
+      <div>JDBC</div>
+      <div>SQL</div>
+    </div>
+  </section>
+
+  <section id="education" style="background-color: rgb(103, 176, 179); border-radius: 10px;">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <td><h3>Schooling<br><img src="school_img.png" width="70%"></h3></td>
+        <td><h3>Intermediate<br><img src="college_img.png" width="40%"></h3></td>
+        <td><h3>BTech<br><img src="mbu_img.jpeg" width="70%"></h3></td>
+      </tr>
+      <tr>
+        <th>Sree Raja Rajeswari High School</th>
+        <th>Narayana Junior College</th>
+        <th>Sree Vidyanikethan Engineering College</th>
+      </tr>
+      <th>2018 - 2019</th>
+      <th>2019 - 2021</th>
+      <th>2021 - 2025</th>
+      <tr>
+        <th>cgpa: 9.8</th>
+        <th>score: 971/1000</th>
+        <th>cgpa: 8.79</th>
+      </tr>
+    </table>
+
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" style="background-color: rgb(78, 193, 197); border-radius: 10px;">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>Project 1: Simple Calculator</h3>
+        <p><i>A simple calculator is built using frontend technologies like HTML, CSS, javascript which performs basic arithmetic 
+          operations.</i></p>
+        <!-- <a href="https://github.com/ChandanaVangala/SIMPLE-CALCULATOR-HTML-CSS-JS-" target="_blank">View Project</a> -->
+        <button onclick="openProject1()">Open Project</button>
+
+    <script>
+        function openProject1() {
+            const url = "https://github.com/ChandanaVangala/SIMPLE-CALCULATOR-HTML-CSS-JS-"; // Replace with your desired URL
+            window.open(url, "_blank"); // Open the URL in a new tab
+        }
+    </script>
+      </div>
+      <div class="project">
+        <h3>Project 2: Tic-Tac-Toe game developed using Java</h3>
+        <p><i>In this game, two players alternately mark a 3x3 grid with 'X' and 'O' symbols. The game declares a winner when a player 
+          successfully meets the winning conditions.</i></p>
+        <!-- <a href="https://github.com/ChandanaVangala/TicTacToe-java" target="_blank">View Project</a> -->
+        <button onclick="openProject2()">Open Project</button>
+
+    <script>
+        function openProject2() {
+            const url = "https://github.com/ChandanaVangala/TicTacToe-java"; // Replace with your desired URL
+            window.open(url, "_blank"); // Open the URL in a new tab
+        }
+    </script>
+      </div>
+      <div class="project">
+        <h3>Project 3: Personal portfolio</h3>
+        <p><i>A personal portfolio website that showcases personal skills, education, projects.</i></p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" style="background-color: rgb(103, 176, 179); border-radius: 10px;">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
