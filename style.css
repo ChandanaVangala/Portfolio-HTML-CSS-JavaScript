@@ -1,0 +1,149 @@
+/* style.css */
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header ul li {
+    margin: 0 15px;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  header ul li a:hover {
+    color: #ff6347;
+  }
+  
+  section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .skill-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill-list div {
+    background: #e1edeb;
+    color: #161616;
+    padding: 10px 20px;
+    border-radius: 9px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: calc(50% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin: 0 0 10px;
+  }
+  
+  .project a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: #ff6347;
+  }
+  
+  footer {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+
+  table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+    
+  td,th{
+    border-collapse: collapse;
+    border: 1px solid black; 
+    /* padding: 8px; */
+    text-align: center;
+    width:33.3%;
+  }
+
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(78, 193, 197);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #10655e;
+}
